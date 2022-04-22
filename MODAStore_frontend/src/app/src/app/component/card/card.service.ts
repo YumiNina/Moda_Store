@@ -8,7 +8,7 @@ import { Card } from './card';
 })
 export class CardService {
 
-  private url:string="http://localhost:8081/card";
+  private url:string="http://localhost:8083/card";
 
   constructor(private http:HttpClient) { }
 
