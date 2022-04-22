@@ -1,8 +1,7 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
- name: 'pipecard'
-})
+ name: 'pipecard'})
 export class PipeCardPipe implements PipeTransform {
 
   converted!: string;
