@@ -8,7 +8,7 @@ import { Categoria } from './categoria';
 })
 export class CategoriaService {
 
-  private url:string="http://localhost:8081/categoria";
+  private url:string="http://localhost:8083/categoria";
 
 
   constructor(private http:HttpClient) { }
