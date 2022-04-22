@@ -9,7 +9,7 @@ import {Receipt } from './receipt';
 })
 export class ReceiptService {
 
-  private url:string="http://localhost:8081/receipt";
+  private url:string="http://localhost:8083/receipt";
 
 
   constructor(private http:HttpClient) { }
