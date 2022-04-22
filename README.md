@@ -1,6 +1,6 @@
 # Moda_Store
 
-**# MODA STORE**
+ **# MODA STORE**
 
 **INTEGRANTES:**
 
