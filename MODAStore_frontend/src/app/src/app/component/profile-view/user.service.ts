@@ -7,7 +7,7 @@ import { User} from './user';
   providedIn: 'root'
 })
 export class UserService{
-  private url:string="http://localhost:8081/user";
+  private url:string="http://localhost:8083/user";
 
   constructor(private http:HttpClient){}
 
