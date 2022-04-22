@@ -9,7 +9,7 @@ import { Product } from '../products/product';
 })
 export class PedidoService {
 
-  private url:string="http://localhost:8081/orderList";
+  private url:string="http://localhost:8083/orderList";
 
   constructor(private http:HttpClient) { }
 
