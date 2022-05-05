@@ -53,13 +53,13 @@ import { Options, LabelType } from 'ng5-slider';
     this.filterPrecio[0]=this.minValue;
     this.filterPrecio[1]=this.maxValue;
     
-    this.http.get('http://localhost:8081/producto')
+    this.http.get('http://localhost:8083/producto')
     .subscribe((data: any) => {
       this.product = data;
       console.log(this.product);
       }
     )
-    this.http.get('http://localhost:8081/categoria')
+    this.http.get('http://localhost:8083/categoria')
     .subscribe((data: any) => {
       this.categoria = data;
       console.log(this.categoria);
