@@ -1,5 +1,6 @@
 import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AccountInfoComponent } from './component/account/account-info/account-info.component';
 import { CardUpdateComponent } from './component/card-update/card-update.component';
 import { CardFormComponent } from './component/card/card-form.component';
 import { CardComponent } from './component/card/card.component';
