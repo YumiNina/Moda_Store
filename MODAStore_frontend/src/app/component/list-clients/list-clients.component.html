@@ -3,7 +3,7 @@
   <div class="container text-white py-5 text-center">
     <h1 style="color: black;">Lista de Clientes</h1>
   </div>
-   
+
   <div class="pb-5">
     <div class="container">
       <div class="row">
@@ -38,14 +38,14 @@
               </thead>
   <tbody *ngFor="let user of user">
                 <tr>
-                 
+
                    <td class="border-0 align-middle"> {{user.username}} </td>
                   <td class="border-0 align-middle">{{user.name}} {{user.lastname}} </td>
                    <td class="border-0 align-middle"> {{user.email}}</td>
                      <div>
                          <button type="button"style="margin: 10px" name ="btnView" class="btn btn-info" [routerLink]="['/list-clients/profile-client', user.user_id]" >Ver Perfil</button>
                         <button class="btn btn-success" style="margin: 10px" type="btnEdit" [routerLink]="['/list-clients/client-edit', user.user_id]">Editar</button>
-                  </div> 
+                  </div>
                 </tr>
               </tbody>
             </table>
