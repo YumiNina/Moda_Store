@@ -20,6 +20,7 @@ import { PedidosComponent } from './component/pedidos/pedidos.component';
 import { PedidosAdminComponent } from './component/pedidos-admin/pedidos-admin.component';
 import { HomeComponent } from './component/home/home.component';
 import { FormProductComponent } from './component/products/form-product.component';
+import { CatalogueComponent } from './component/catalogue/catalogue.component';
 
 
 
