@@ -15,6 +15,7 @@ import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SesionComponent } from './component/sesion/sesion.component';
 import { CartComponent } from './component/cart/cart.component';
+import { ProductsComponent } from './component/products/products.component';
 
 
 
