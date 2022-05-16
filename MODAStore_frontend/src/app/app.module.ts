@@ -41,6 +41,7 @@ import { CardUpdateComponent } from './component/card-update/card-update.compone
 import { ProbadorVirtualComponent } from './component/probador-virtual/probador-virtual.component';
 import { ProductBuyComponent } from './component/product-buy/product-buy.component';
 import { MostBougthComponent } from './component/most-bougth/most-bougth.component';
+import { MoreOrderComponent } from './component/reports/more-order/more-order.component';
 
 
 
