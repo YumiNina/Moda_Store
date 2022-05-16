@@ -10,6 +10,7 @@ import { CatalogueComponent } from './component/catalogue/catalogue.component';
 import { CategoriasComponent } from './component/categorias/categorias.component';
 import { FormCategoriaComponent } from './component/categorias/form-categoria.component';
 import { ClientEditComponent } from './component/client-edit/client-edit.component';
+import { HomeComponent } from './component/home/home.component';
 import { ListClientsComponent } from './component/list-clients/list-clients.component';
 import { MostBougthComponent } from './component/most-bougth/most-bougth.component';
 import { PedidosComponent } from './component/pedidos/pedidos.component';
