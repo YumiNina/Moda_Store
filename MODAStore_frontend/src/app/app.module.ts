@@ -43,6 +43,8 @@ import { ProductBuyComponent } from './component/product-buy/product-buy.compone
 import { MostBougthComponent } from './component/most-bougth/most-bougth.component';
 import { MoreOrderComponent } from './component/reports/more-order/more-order.component';
 import { LessOrderComponent } from './component/reports/less-order/less-order.component';
+import { PedirComponent } from './component/pedir/pedir.component';
+import { AccountInfoComponent } from './component/account/account-info/account-info.component';
 
 
 
