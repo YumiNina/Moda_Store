@@ -40,6 +40,7 @@ import { CardFormComponent } from './component/card/card-form.component';
 import { CardUpdateComponent } from './component/card-update/card-update.component';
 import { ProbadorVirtualComponent } from './component/probador-virtual/probador-virtual.component';
 import { ProductBuyComponent } from './component/product-buy/product-buy.component';
+import { MostBougthComponent } from './component/most-bougth/most-bougth.component';
 
 
 
