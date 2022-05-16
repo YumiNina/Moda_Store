@@ -1,5 +1,5 @@
 import { Component, NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { RouterLink, RouterModule, Routes } from '@angular/router';
 import { AccountInfoComponent } from './component/account/account-info/account-info.component';
 import { AccountUpdateComponent } from './component/account/account-update/account-update.component';
 import { CardUpdateComponent } from './component/card-update/card-update.component';
@@ -34,8 +34,6 @@ import { UserUpdateComponent } from './component/user/user-update/user-update.co
 
 
 
-import { AuthModule } from './modules/auth/auth.module';
-import { LoginComponent } from './modules/auth/login/login.component';
 import { OrderComponent } from './order/order.component';
 
 
@@ -59,11 +57,11 @@ const routes: Routes = [
     loadChildren: () =>
     import('@modules/auth/auth.module').then((m) => m.AuthModule)
 
-  },*/
+  },
 
   {  path: 'auth',loadChildren: 'src/app/modules/auth/auth.modules#AuthModule' },
- // { path: 'auth', loadChildren: 'src/app/auth/auth.module#AuthModule' },
-
+  { path: 'auth', loadChildren: 'src/app/auth/auth.module#AuthModule' },
+*/
 
   {
     path:'user-login',
@@ -323,8 +321,4 @@ const routes: Routes = [
 
 ];
 
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
-export class AppRoutingModule { }
+
