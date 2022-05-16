@@ -8,6 +8,7 @@ import { CatalogueComponent } from './component/catalogue/catalogue.component';
 import { CategoriasComponent } from './component/categorias/categorias.component';
 import { FormCategoriaComponent } from './component/categorias/form-categoria.component';
 import { ClientEditComponent } from './component/client-edit/client-edit.component';
+import { ListClientsComponent } from './component/list-clients/list-clients.component';
 import { PedidosComponent } from './component/pedidos/pedidos.component';
 import { PedirComponent } from './component/pedir/pedir.component';
 import { ProbadorVirtualComponent } from './component/probador-virtual/probador-virtual.component';
