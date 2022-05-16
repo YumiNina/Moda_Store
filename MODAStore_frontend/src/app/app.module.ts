@@ -1,18 +1,10 @@
 import { RouterModule, Routes } from '@angular/router';
 
 import { NgModule, Pipe } from '@angular/core';
-
 import { BrowserModule } from '@angular/platform-browser';
-
-
 import { AppComponent } from './app.component';
-
 import { HttpClientModule } from '@angular/common/http';
-
 import { FormsModule } from '@angular/forms';
-
-
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SesionComponent } from './component/sesion/sesion.component';
 import { CartComponent } from './component/cart/cart.component';
 import { ProductsComponent } from './component/products/products.component';
@@ -47,6 +39,12 @@ import { PedirComponent } from './component/pedir/pedir.component';
 import { AccountInfoComponent } from './component/account/account-info/account-info.component';
 import { AccountUpdateComponent } from './component/account/account-update/account-update.component';
 import { NavbarComponent } from './component/navbar/navbar.component';
+import { PipeCardPipe } from './pipe-card/pipe-card.pipe';
+import { FooterComponent } from './component/footer/footer.component';
+import { MainComponent } from './main/main.component';
+import { FilterPipe1 } from './pipes Categoria/filterCategoria.pipe';
+import { FilterPipe2 } from './pipes Precio/filterPrecio.pipe';
+import { FilterPipe } from './pipes/filter.pipe';
 
 
 

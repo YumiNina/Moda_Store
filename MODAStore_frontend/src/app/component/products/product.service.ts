@@ -38,7 +38,7 @@ export class ProductService {
   // ELIMINAR UN PRODUCTO
   delete(id:number):Observable<Product>{
     return this.http.delete<Product>(this.url+'/'+id);
-    
+
   }
 
   upload(file:File):Observable<any>{
