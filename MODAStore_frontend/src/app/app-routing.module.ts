@@ -13,6 +13,7 @@ import { ProductDetailsComponent } from './component/product-details/product-det
 import { FormProductComponent } from './component/products/form-product.component';
 import { ProductsComponent } from './component/products/products.component';
 import { ProfileClientComponent } from './component/profile-client/profile-client.component';
+import { ProfileViewComponent } from './component/profile-view/profile-view.component';
 import { ReceiptComponent } from './component/receipt/receipt.component';
 import { SesionComponent } from './component/sesion/sesion.component';
 import { UserAdminUpdateComponent } from './component/user/user-admin-update/user-admin-update.component';
