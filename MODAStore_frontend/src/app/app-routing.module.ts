@@ -10,6 +10,8 @@ import { PedidosComponent } from './component/pedidos/pedidos.component';
 import { PedirComponent } from './component/pedir/pedir.component';
 import { ProbadorVirtualComponent } from './component/probador-virtual/probador-virtual.component';
 import { ProductDetailsComponent } from './component/product-details/product-details.component';
+import { FormProductComponent } from './component/products/form-product.component';
+import { ProductsComponent } from './component/products/products.component';
 import { ProfileClientComponent } from './component/profile-client/profile-client.component';
 import { ReceiptComponent } from './component/receipt/receipt.component';
 import { SesionComponent } from './component/sesion/sesion.component';
