@@ -12,6 +12,7 @@ import { ListClientsComponent } from './component/list-clients/list-clients.comp
 import { PedidosComponent } from './component/pedidos/pedidos.component';
 import { PedirComponent } from './component/pedir/pedir.component';
 import { ProbadorVirtualComponent } from './component/probador-virtual/probador-virtual.component';
+import { ProductBuyComponent } from './component/product-buy/product-buy.component';
 import { ProductDetailsComponent } from './component/product-details/product-details.component';
 import { FormProductComponent } from './component/products/form-product.component';
 import { ProductsComponent } from './component/products/products.component';
