@@ -13,6 +13,7 @@ import { FormsModule } from '@angular/forms';
 
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SesionComponent } from './component/sesion/sesion.component';
 
 
 
