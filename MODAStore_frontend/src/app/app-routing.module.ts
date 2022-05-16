@@ -29,6 +29,7 @@ import { SesionComponent } from './component/sesion/sesion.component';
 import { UserAdminUpdateComponent } from './component/user/user-admin-update/user-admin-update.component';
 import { UserAdminComponent } from './component/user/user-admin/user-admin.component';
 import { UserFormComponent } from './component/user/user-admin/user-form.component';
+import { UserLoginComponent } from './component/user/user-login/user-login.component';
 import { UserUpdateComponent } from './component/user/user-update/user-update.component';
 
 
