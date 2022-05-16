@@ -33,6 +33,7 @@ import { FormCategoriaComponent } from './component/categorias/form-categoria.co
 import { OrderComponent } from './order/order.component';
 import { ProfileClientComponent } from './component/profile-client/profile-client.component';
 import { ClientEditComponent } from './component/client-edit/client-edit.component';
+import { UserLoginComponent } from './component/user/user-login/user-login.component';
 
 
 
