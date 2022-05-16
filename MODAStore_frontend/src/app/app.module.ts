@@ -29,6 +29,8 @@ import { ListClientsComponent } from './component/list-clients/list-clients.comp
 import { ProfileViewComponent } from './component/profile-view/profile-view.component';
 import { UserAdminUpdateComponent } from './component/user/user-admin-update/user-admin-update.component';
 import { CategoriasComponent } from './component/categorias/categorias.component';
+import { FormCategoriaComponent } from './component/categorias/form-categoria.component';
+import { OrderComponent } from './order/order.component';
 
 
 
