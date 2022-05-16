@@ -22,6 +22,26 @@ import { HomeComponent } from './component/home/home.component';
 import { FormProductComponent } from './component/products/form-product.component';
 import { CatalogueComponent } from './component/catalogue/catalogue.component';
 import { ProductDetailsComponent } from './component/product-details/product-details.component';
+import { UserUpdateComponent } from './component/user/user-update/user-update.component';
+import { UserAdminComponent } from './component/user/user-admin/user-admin.component';
+import { UserFormComponent } from './component/user/user-admin/user-form.component';
+import { ListClientsComponent } from './component/list-clients/list-clients.component';
+import { ProfileViewComponent } from './component/profile-view/profile-view.component';
+import { UserAdminUpdateComponent } from './component/user/user-admin-update/user-admin-update.component';
+import { CategoriasComponent } from './component/categorias/categorias.component';
+import { FormCategoriaComponent } from './component/categorias/form-categoria.component';
+import { OrderComponent } from './order/order.component';
+import { ProfileClientComponent } from './component/profile-client/profile-client.component';
+import { ClientEditComponent } from './component/client-edit/client-edit.component';
+import { UserLoginComponent } from './component/user/user-login/user-login.component';
+import { CardComponent } from './component/card/card.component';
+import { ReceiptComponent } from './component/receipt/receipt.component';
+import { CardFormComponent } from './component/card/card-form.component';
+import { CardUpdateComponent } from './component/card-update/card-update.component';
+import { ProbadorVirtualComponent } from './component/probador-virtual/probador-virtual.component';
+import { ProductBuyComponent } from './component/product-buy/product-buy.component';
+import { MostBougthComponent } from './component/most-bougth/most-bougth.component';
+import { MoreOrderComponent } from './component/reports/more-order/more-order.component';
 
 
 
