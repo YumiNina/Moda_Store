@@ -21,6 +21,7 @@ import { PedidosAdminComponent } from './component/pedidos-admin/pedidos-admin.c
 import { HomeComponent } from './component/home/home.component';
 import { FormProductComponent } from './component/products/form-product.component';
 import { CatalogueComponent } from './component/catalogue/catalogue.component';
+import { ProductDetailsComponent } from './component/product-details/product-details.component';
 
 
 
