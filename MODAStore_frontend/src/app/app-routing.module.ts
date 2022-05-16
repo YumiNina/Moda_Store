@@ -15,6 +15,7 @@ import { ProductsComponent } from './component/products/products.component';
 import { ProfileClientComponent } from './component/profile-client/profile-client.component';
 import { ReceiptComponent } from './component/receipt/receipt.component';
 import { SesionComponent } from './component/sesion/sesion.component';
+import { UserAdminComponent } from './component/user/user-admin/user-admin.component';
 import { UserUpdateComponent } from './component/user/user-update/user-update.component';
 
 
