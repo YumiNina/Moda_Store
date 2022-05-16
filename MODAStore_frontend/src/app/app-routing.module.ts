@@ -1,5 +1,6 @@
 import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CardFormComponent } from './component/card/card-form.component';
 import { CardComponent } from './component/card/card.component';
 import { CartComponent } from './component/cart/cart.component';
 import { CatalogueComponent } from './component/catalogue/catalogue.component';
