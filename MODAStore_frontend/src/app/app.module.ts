@@ -37,6 +37,7 @@ import { UserLoginComponent } from './component/user/user-login/user-login.compo
 import { CardComponent } from './component/card/card.component';
 import { ReceiptComponent } from './component/receipt/receipt.component';
 import { CardFormComponent } from './component/card/card-form.component';
+import { CardUpdateComponent } from './component/card-update/card-update.component';
 
 
 
