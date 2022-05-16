@@ -6,6 +6,7 @@ import { CardComponent } from './component/card/card.component';
 import { CartComponent } from './component/cart/cart.component';
 import { CatalogueComponent } from './component/catalogue/catalogue.component';
 import { CategoriasComponent } from './component/categorias/categorias.component';
+import { FormCategoriaComponent } from './component/categorias/form-categoria.component';
 import { ClientEditComponent } from './component/client-edit/client-edit.component';
 import { PedidosComponent } from './component/pedidos/pedidos.component';
 import { PedirComponent } from './component/pedir/pedir.component';
