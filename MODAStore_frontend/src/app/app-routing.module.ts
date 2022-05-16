@@ -5,6 +5,7 @@ import { CardFormComponent } from './component/card/card-form.component';
 import { CardComponent } from './component/card/card.component';
 import { CartComponent } from './component/cart/cart.component';
 import { CatalogueComponent } from './component/catalogue/catalogue.component';
+import { ClientEditComponent } from './component/client-edit/client-edit.component';
 import { ProductDetailsComponent } from './component/product-details/product-details.component';
 import { SesionComponent } from './component/sesion/sesion.component';
 import { UserUpdateComponent } from './component/user/user-update/user-update.component';
