@@ -36,6 +36,7 @@ import { ClientEditComponent } from './component/client-edit/client-edit.compone
 import { UserLoginComponent } from './component/user/user-login/user-login.component';
 import { CardComponent } from './component/card/card.component';
 import { ReceiptComponent } from './component/receipt/receipt.component';
+import { CardFormComponent } from './component/card/card-form.component';
 
 
 
