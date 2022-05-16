@@ -147,8 +147,6 @@ const routes: Routes = [
     FooterComponent,
     AccountUpdateComponent,
     AccountInfoComponent,
-
-
   ],
   imports: [
     ConfirmationPopoverModule.forRoot({
