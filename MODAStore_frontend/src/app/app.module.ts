@@ -45,6 +45,7 @@ import { MoreOrderComponent } from './component/reports/more-order/more-order.co
 import { LessOrderComponent } from './component/reports/less-order/less-order.component';
 import { PedirComponent } from './component/pedir/pedir.component';
 import { AccountInfoComponent } from './component/account/account-info/account-info.component';
+import { AccountUpdateComponent } from './component/account/account-update/account-update.component';
 
 
 
