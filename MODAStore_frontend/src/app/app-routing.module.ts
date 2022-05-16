@@ -2,6 +2,7 @@ import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CatalogueComponent } from './component/catalogue/catalogue.component';
 import { ProductDetailsComponent } from './component/product-details/product-details.component';
+import { SesionComponent } from './component/sesion/sesion.component';
 
 
 
