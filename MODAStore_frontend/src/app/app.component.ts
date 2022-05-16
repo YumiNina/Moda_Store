@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = '#ModaStore';
+  title = 'TiendaISI-Frontend';
 }
 
 /*export class AppComponent implements OnInit {
