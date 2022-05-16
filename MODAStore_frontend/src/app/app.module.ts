@@ -17,6 +17,8 @@ import { SesionComponent } from './component/sesion/sesion.component';
 import { CartComponent } from './component/cart/cart.component';
 import { ProductsComponent } from './component/products/products.component';
 import { PedidosComponent } from './component/pedidos/pedidos.component';
+import { PedidosAdminComponent } from './component/pedidos-admin/pedidos-admin.component';
+import { HomeComponent } from './component/home/home.component';
 
 
 
