@@ -24,6 +24,9 @@ import { CatalogueComponent } from './component/catalogue/catalogue.component';
 import { ProductDetailsComponent } from './component/product-details/product-details.component';
 import { UserUpdateComponent } from './component/user/user-update/user-update.component';
 import { UserAdminComponent } from './component/user/user-admin/user-admin.component';
+import { UserFormComponent } from './component/user/user-admin/user-form.component';
+import { ListClientsComponent } from './component/list-clients/list-clients.component';
+import { ProfileViewComponent } from './component/profile-view/profile-view.component';
 
 
 
