@@ -23,6 +23,7 @@ import { FormProductComponent } from './component/products/form-product.componen
 import { CatalogueComponent } from './component/catalogue/catalogue.component';
 import { ProductDetailsComponent } from './component/product-details/product-details.component';
 import { UserUpdateComponent } from './component/user/user-update/user-update.component';
+import { UserAdminComponent } from './component/user/user-admin/user-admin.component';
 
 
 
