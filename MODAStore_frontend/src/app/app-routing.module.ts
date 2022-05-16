@@ -7,6 +7,7 @@ import { CartComponent } from './component/cart/cart.component';
 import { CatalogueComponent } from './component/catalogue/catalogue.component';
 import { ClientEditComponent } from './component/client-edit/client-edit.component';
 import { PedidosComponent } from './component/pedidos/pedidos.component';
+import { PedirComponent } from './component/pedir/pedir.component';
 import { ProductDetailsComponent } from './component/product-details/product-details.component';
 import { SesionComponent } from './component/sesion/sesion.component';
 import { UserUpdateComponent } from './component/user/user-update/user-update.component';
