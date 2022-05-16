@@ -27,6 +27,7 @@ import { UserAdminComponent } from './component/user/user-admin/user-admin.compo
 import { UserFormComponent } from './component/user/user-admin/user-form.component';
 import { ListClientsComponent } from './component/list-clients/list-clients.component';
 import { ProfileViewComponent } from './component/profile-view/profile-view.component';
+import { UserAdminUpdateComponent } from './component/user/user-admin-update/user-admin-update.component';
 
 
 
