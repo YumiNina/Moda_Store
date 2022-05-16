@@ -42,6 +42,7 @@ import { ProbadorVirtualComponent } from './component/probador-virtual/probador-
 import { ProductBuyComponent } from './component/product-buy/product-buy.component';
 import { MostBougthComponent } from './component/most-bougth/most-bougth.component';
 import { MoreOrderComponent } from './component/reports/more-order/more-order.component';
+import { LessOrderComponent } from './component/reports/less-order/less-order.component';
 
 
 
