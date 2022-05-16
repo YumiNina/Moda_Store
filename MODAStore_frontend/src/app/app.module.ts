@@ -35,6 +35,7 @@ import { ProfileClientComponent } from './component/profile-client/profile-clien
 import { ClientEditComponent } from './component/client-edit/client-edit.component';
 import { UserLoginComponent } from './component/user/user-login/user-login.component';
 import { CardComponent } from './component/card/card.component';
+import { ReceiptComponent } from './component/receipt/receipt.component';
 
 
 
