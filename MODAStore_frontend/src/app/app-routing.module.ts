@@ -1,41 +1,54 @@
 import { Component, NgModule } from '@angular/core';
-import { RouterLink, RouterModule, Routes } from '@angular/router';
-import { AccountInfoComponent } from './component/account/account-info/account-info.component';
-import { AccountUpdateComponent } from './component/account/account-update/account-update.component';
-import { CardUpdateComponent } from './component/card-update/card-update.component';
-import { CardFormComponent } from './component/card/card-form.component';
-import { CardComponent } from './component/card/card.component';
-import { CartComponent } from './component/cart/cart.component';
-import { CatalogueComponent } from './component/catalogue/catalogue.component';
-import { CategoriasComponent } from './component/categorias/categorias.component';
-import { FormCategoriaComponent } from './component/categorias/form-categoria.component';
-import { ClientEditComponent } from './component/client-edit/client-edit.component';
-import { HomeComponent } from './component/home/home.component';
-import { ListClientsComponent } from './component/list-clients/list-clients.component';
-import { MostBougthComponent } from './component/most-bougth/most-bougth.component';
-import { PedidosComponent } from './component/pedidos/pedidos.component';
-import { PedirComponent } from './component/pedir/pedir.component';
-import { ProbadorVirtualComponent } from './component/probador-virtual/probador-virtual.component';
-import { ProductBuyComponent } from './component/product-buy/product-buy.component';
-import { ProductDetailsComponent } from './component/product-details/product-details.component';
-import { FormProductComponent } from './component/products/form-product.component';
-import { ProductsComponent } from './component/products/products.component';
-import { ProfileClientComponent } from './component/profile-client/profile-client.component';
-import { ProfileViewComponent } from './component/profile-view/profile-view.component';
-import { ReceiptComponent } from './component/receipt/receipt.component';
-import { LessOrderComponent } from './component/reports/less-order/less-order.component';
-import { MoreOrderComponent } from './component/reports/more-order/more-order.component';
-import { SesionComponent } from './component/sesion/sesion.component';
-import { UserAdminUpdateComponent } from './component/user/user-admin-update/user-admin-update.component';
-import { UserAdminComponent } from './component/user/user-admin/user-admin.component';
-import { UserFormComponent } from './component/user/user-admin/user-form.component';
-import { UserLoginComponent } from './component/user/user-login/user-login.component';
-import { UserUpdateComponent } from './component/user/user-update/user-update.component';
+import { RouterModule, Routes } from '@angular/router';
 
 
-
+import { AppComponent } from './app.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { HomeComponent } from './components/home/home.component';
+import { SesionComponent } from './components/sesion/sesion.component';
+import { CartComponent } from './components/cart/cart.component';
+import { ProductsComponent } from './components/products/products.component';
+import { CategoriasComponent } from './components/categorias/categorias.component';
+import { FormCategoriaComponent } from './components/categorias/form-categoria.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormProductComponent } from './components/products/form-product.component';
+import { FormsModule } from '@angular/forms';
+import { CatalogueComponent } from './components/catalogue/catalogue.component';
+import { FilterPipe } from './pipes/filter.pipe';
+import { FilterPipe1 } from './pipes Categoria/filterCategoria.pipe';
+import { FilterPipe2 } from './pipes Precio/filterPrecio.pipe';
+import { ProductDetailsComponent } from './components/product-details/product-details.component';
+import { UserAdminComponent } from './components/user/user-admin/user-admin.component';
+import { UserUpdateComponent } from './components/user/user-update/user-update.component';
+import { UserFormComponent } from './components/user/user-admin/user-form.component';
+import { ListClientsComponent } from './components/list-clients/list-clients.component';
+import { ProfileViewComponent } from './components/profile-view/profile-view.component';
+import { UserAdminUpdateComponent } from './components/user/user-admin-update/user-admin-update.component';
 import { OrderComponent } from './order/order.component';
-
+import { ProfileClientComponent } from './components/profile-client/profile-client.component';
+import { Ng5SliderModule } from 'ng5-slider';
+import { ClientEditComponent } from './components/client-edit/client-edit.component';
+import { ConfirmationPopoverModule} from 'angular-confirmation-popover';
+import { PedidosComponent } from './components/pedidos/pedidos.component';
+import { UserLoginComponent } from './components/user/user-login/user-login.component';
+import { CardComponent } from './components/card/card.component';
+import { ReceiptComponent } from './components/receipt/receipt.component';
+import { PipeCardPipe } from './pipe-card/pipe-card.pipe';
+import { MainComponent } from './main/main.component';
+import { AuthModule } from './modules/auth/auth.module';
+import { LoginComponent } from './modules/auth/login/login.component';
+import { CardFormComponent } from './components/card/card-form.component';
+import { CardUpdateComponent } from './components/card-update/card-update.component';
+import { ProbadorVirtualComponent } from './components/probador-virtual/probador-virtual.component';
+import { Receipt } from './components/receipt/receipt';
+import { ProductBuyComponent } from './components/product-buy/product-buy.component';
+import { MostBougthComponent } from './components/most-bougth/most-bougth.component';
+import { MoreOrderComponent } from './components/reports/more-order/more-order.component';
+import { LessOrderComponent } from './components/reports/less-order/less-order.component';
+import { PedirComponent } from './components/pedir/pedir.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { AccountInfoComponent } from './components/account/account-info/account-info.component';
+import { AccountUpdateComponent } from './components/account/account-update/account-update.component';
 
 const routes: Routes = [
 
@@ -57,11 +70,11 @@ const routes: Routes = [
     loadChildren: () =>
     import('@modules/auth/auth.module').then((m) => m.AuthModule)
 
-  },
+  },*/
 
   {  path: 'auth',loadChildren: 'src/app/modules/auth/auth.modules#AuthModule' },
-  { path: 'auth', loadChildren: 'src/app/auth/auth.module#AuthModule' },
-*/
+ // { path: 'auth', loadChildren: 'src/app/auth/auth.module#AuthModule' },
+
 
   {
     path:'user-login',
@@ -321,4 +334,8 @@ const routes: Routes = [
 
 ];
 
-
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }
